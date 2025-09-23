@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&amp;display=swap"
+    rel="stylesheet" />
+  <title>Z.L. Hardscape &amp; Design</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#ec7f13",
+            "background-light": "#f8f7f6",
+            "background-dark": "#221910",
+            "text-light": "#221910",
+            "text-dark": "#f8f7f6",
+            "border-light": "#e7dbcf",
+            "border-dark": "#3a2c1d"
+          },
+          fontFamily: {
+            "display": ["Work Sans"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+  <style type="text/css">
+    body {
+      font-family: 'Work Sans', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark">
+  <div class="flex flex-col min-h-screen">
+    <header
+      class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-border-light dark:border-border-dark">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-20">
+          <div class="flex items-center gap-3">
+            <svg class="h-8 w-8 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
+                fill="currentColor"></path>
+            </svg>
+            <span class="text-xl font-bold">Z.L. Hardscape &amp; Design</span>
+          </div>
+          <nav class="hidden md:flex items-center gap-8">
+            <a class="text-sm font-medium hover:text-primary transition-colors" href="services.html">Services</a>
+            <a class="text-sm font-medium hover:text-primary transition-colors" href="#">Gallery</a>
+            <a class="text-sm font-medium hover:text-primary transition-colors" href="about.html">About Us</a>
+            <a class="text-sm font-medium hover:text-primary transition-colors" href="#">Contact</a>
+          </nav>
+          <a class="hidden md:inline-flex items-center justify-center px-4 py-2 text-sm font-bold bg-primary text-white rounded-lg hover:bg-opacity-90 transition-colors"
+            href="#"> Get a Quote </a>
+        </div>
+      </div>
+    </header>
+    <main class="flex-grow">
+      <section class="relative min-h-[60vh] flex items-center justify-center bg-cover bg-center"
+        style='background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuC7004mMvVDF5icO_qLNa5NN7oyGb2qO4OW7-aNXkMxmsW2kgSBxStxS8WIqZnoen_7OS4lh5BSvhKq75Dg2s23auKoDOrcLLifXt4ROioWxgX3vn3ECgJ8YvJ6S2EjjDhDt4zEY3WyoYCIadU_Lby80XGL2jlnQD38wT-pxQ5Q8RV7FbfJlj3F_aghqZSRcZHlXwRFQBFaluN1jgQNHbnRsosVHtQR6d_kwAfRz_aoimjBpQowt3vlEeJYKrhoizUYVrIzfqVlD_cK");'>
+        <div class="text-center text-white px-4">
+          <h1 class="text-4xl md:text-6xl font-bold tracking-tight">Transform Your Outdoor Space</h1>
+          <p class="mt-4 text-lg md:text-xl max-w-2xl mx-auto">Expert hardscape solutions for Tucson homes. From pavers
+            to artificial turf, we bring your vision to life.</p>
+          <a class="mt-8 inline-flex items-center justify-center px-6 py-3 text-base font-bold bg-primary text-white rounded-lg hover:bg-opacity-90 transition-colors"
+            href="#"> Get a Quote </a>
+        </div>
+      </section>
+      <section class="py-16 sm:py-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center">
+            <h2 class="text-3xl font-bold tracking-tight">Our Services</h2>
+            <p class="mt-4 text-lg text-text-light/70 dark:text-text-dark/70">Crafting beautiful and durable outdoor
+              environments.</p>
+          </div>
+          <div class="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+            <div
+              class="flex flex-col gap-4 rounded-lg border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark p-6 text-center shadow-sm hover:shadow-lg transition-shadow">
+              <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
+                <svg class="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 256 256"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M251.34,112,183.88,44.08a96.1,96.1,0,0,0-135.77,0l-.09.09L34.25,58.4A8,8,0,0,0,45.74,69.53L59.47,55.35a79.92,79.92,0,0,1,18.71-13.9L124.68,88l-96,96a16,16,0,0,0,0,22.63l20.69,20.69a16,16,0,0,0,22.63,0l96-96,14.34,14.34h0L200,163.3a16,16,0,0,0,22.63,0l28.69-28.69A16,16,0,0,0,251.34,112ZM60.68,216,40,195.31l68-68L128.68,148ZM162.34,114.32,140,136.67,119.31,116l22.35-22.35a8,8,0,0,0,0-11.32L94.32,35a80,80,0,0,1,78.23,20.41l44.22,44.51L188,128.66l-14.34-14.34A8,8,0,0,0,162.34,114.32Zm49,37.66-12-12L228,111.25l12,12Z">
+                  </path>
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold">Pavers</h3>
+              <p class="text-text-light/70 dark:text-text-dark/70">Enhance your outdoor living with custom paver
+                designs.</p>
+            </div>
+            <div
+              class="flex flex-col gap-4 rounded-lg border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark p-6 text-center shadow-sm hover:shadow-lg transition-shadow">
+              <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
+                <svg class="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 256 256"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M237.79,53.23a66.86,66.86,0,0,0-97.74,0,72.21,72.21,0,0,0-12.05,17,72.21,72.21,0,0,0-12-17,66.86,66.86,0,0,0-97.74,0,8,8,0,0,0,2.6,12.85L77,90.55a71.42,71.42,0,0,0-43.36,33.21,70.64,70.64,0,0,0-7.2,54.32A8,8,0,0,0,39,182.36l81-61.68V224a8,8,0,0,0,16,0V120.68l81,61.68a8,8,0,0,0,12.57-4.28,70.64,70.64,0,0,0-7.2-54.32A71.42,71.42,0,0,0,179,90.55l56.22-24.47a8,8,0,0,0,2.6-12.85ZM67.08,48a51.13,51.13,0,0,1,37.28,16.26,56.53,56.53,0,0,1,14.26,26.93L39,56.53A50.5,50.5,0,0,1,67.08,48ZM40,161.5a54.82,54.82,0,0,1,7.47-29.7,55.55,55.55,0,0,1,34-25.89A56.52,56.52,0,0,1,96.1,104a55.82,55.82,0,0,1,16.23,2.41ZM208.5,131.8A54.82,54.82,0,0,1,216,161.5l-72.3-55.1a56.3,56.3,0,0,1,64.83,25.4ZM137.38,91.19a56.53,56.53,0,0,1,14.26-26.93A51.13,51.13,0,0,1,188.92,48,50.5,50.5,0,0,1,217,56.53Z">
+                  </path>
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold">Artificial Turf</h3>
+              <p class="text-text-light/70 dark:text-text-dark/70">Low-maintenance, eco-friendly turf for a lush green
+                yard.</p>
+            </div>
+            <div
+              class="flex flex-col gap-4 rounded-lg border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark p-6 text-center shadow-sm hover:shadow-lg transition-shadow">
+              <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
+                <svg class="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 256 256"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M224,48H32a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8H224a8,8,0,0,0,8-8V56A8,8,0,0,0,224,48ZM88,144V112h80v32Zm-48,0V112H72v32Zm144-32h32v32H184Zm32-16H136V64h80ZM120,64V96H40V64ZM40,160h80v32H40Zm96,32V160h80v32Z">
+                  </path>
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold">Masonry Walls</h3>
+              <p class="text-text-light/70 dark:text-text-dark/70">Durable and stylish masonry walls for privacy and
+                aesthetics.</p>
+            </div>
+            <div
+              class="flex flex-col gap-4 rounded-lg border border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark p-6 text-center shadow-sm hover:shadow-lg transition-shadow">
+              <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary/10">
+                <svg class="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 256 256"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M34.33,77.68a8,8,0,0,1,0-11.34C35.1,65.59,53.1,48,88,48c18.42,0,32.24,9.21,44.44,17.34C143.74,72.88,154.42,80,168,80a72.21,72.21,0,0,0,31.75-6.83,44.87,44.87,0,0,0,10.63-6.87,8,8,0,0,1,11.27,11.36C220.9,78.41,202.9,96,168,96c-18.42,0-32.24-9.21-44.44-17.34C112.26,71.12,101.58,64,88,64a72.21,72.21,0,0,0-31.75,6.83A44.87,44.87,0,0,0,45.62,77.7,8,8,0,0,1,34.33,77.68ZM210.38,122.3a44.87,44.87,0,0,1-10.63,6.87A72.21,72.21,0,0,1,168,136c-13.58,0-24.26-7.12-35.56-14.66C120.24,113.21,106.42,104,88,104c-34.9,0-52.9,17.59-53.65,18.34A8,8,0,0,0,45.62,133.7a44.87,44.87,0,0,1,10.63-6.87A72.21,72.21,0,0,1,88,120c13.58,0,24.26,7.12,35.56,14.66,12.2,8.13,26,17.34,44.44,17.34,34.9,0,52.9-17.59,53.65-18.34a8,8,0,0,0-11.27-11.36Zm0,56a44.87,44.87,0,0,1-10.63,6.87A72.21,72.21,0,0,1,168,192c-13.58,0-24.26-7.12-35.56-14.66C120.24,169.21,106.42,160,88,160c-34.9,0-52.9,17.59-53.65,18.34A8,8,0,0,0,45.62,189.7a44.87,44.87,0,0,1,10.63-6.87A72.21,72.21,0,0,1,88,176c13.58,0,24.26,7.12,35.56,14.66,12.2,8.13,26,17.34,44.44,17.34,34.9,0,52.9-17.59,53.65-18.34a8,8,0,0,0-11.27-11.36Z">
+                  </path>
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold">Water Features</h3>
+              <p class="text-text-light/70 dark:text-text-dark/70">Add tranquility with custom-designed water features.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-background-light dark:bg-background-dark py-16 sm:py-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl mx-auto text-center">
+            <h2 class="text-3xl font-bold tracking-tight">Get in Touch</h2>
+            <p class="mt-4 text-lg text-text-light/70 dark:text-text-dark/70">Ready to start your project? Fill out the
+              form below and we'll get back to you shortly.</p>
+          </div>
+          <div class="mt-12 max-w-xl mx-auto">
+            <form action="#" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" method="POST">
+              <div>
+                <label class="block text-sm font-medium text-text-light dark:text-text-dark" for="full-name">Full
+                  name</label>
+                <div class="mt-1">
+                  <input autocomplete="name"
+                    class="block w-full rounded-md border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+                    id="full-name" name="full-name" type="text" />
+                </div>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-text-light dark:text-text-dark" for="email">Email</label>
+                <div class="mt-1">
+                  <input autocomplete="email"
+                    class="block w-full rounded-md border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+                    id="email" name="email" type="email" />
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label class="block text-sm font-medium text-text-light dark:text-text-dark" for="phone-number">Phone
+                  number</label>
+                <div class="mt-1">
+                  <input autocomplete="tel"
+                    class="block w-full rounded-md border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+                    id="phone-number" name="phone-number" type="text" />
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label class="block text-sm font-medium text-text-light dark:text-text-dark"
+                  for="message">Message</label>
+                <div class="mt-1">
+                  <textarea
+                    class="block w-full rounded-md border-border-light dark:border-border-dark bg-background-light dark:bg-background-dark shadow-sm focus:border-primary focus:ring-primary sm:text-sm"
+                    id="message" name="message" rows="4"></textarea>
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <button
+                  class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-primary hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
+                  type="submit"> Send Message </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section
+        class="bg-background-light dark:bg-background-dark py-16 sm:py-24 border-t border-border-light dark:border-border-dark">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 class="text-3xl font-bold tracking-tight">See Our Work</h2>
+          <p class="mt-4 text-lg max-w-2xl mx-auto text-text-light/70 dark:text-text-dark/70">Explore our gallery of
+            completed projects and get inspired for your own outdoor transformation.</p>
+          <a class="mt-8 inline-flex items-center justify-center px-6 py-3 text-base font-bold bg-primary text-white rounded-lg hover:bg-opacity-90 transition-colors"
+            href="#"> View Our Gallery </a>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-background-light dark:bg-background-dark border-t border-border-light dark:border-border-dark">
+      <div
+        class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-sm text-text-light/60 dark:text-text-dark/60">
+        <p>© 2024 Z.L. Hardscape &amp; Design. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>

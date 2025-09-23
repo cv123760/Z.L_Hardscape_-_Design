@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect" />
+    <link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Work+Sans:wght@400;500;700;900"
+        onload="this.rel='stylesheet'" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#ec7f13',
+                        'background-light': '#f8f7f6',
+                        'background-dark': '#221910',
+                    },
+                    fontFamily: {
+                        display: ['Work Sans'],
+                    },
+                    borderRadius: { DEFAULT: '0.25rem', lg: '0.5rem', xl: '0.75rem', full: '9999px' },
+                },
+            },
+        };
+    </script>
+    <title>Z.L. Hardscape &amp; Design - Services</title>
+    <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon" />
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-zinc-900 dark:text-zinc-200">
+    <div class="flex flex-col min-h-screen">
+        <header
+            class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-zinc-200 dark:border-zinc-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex h-16 items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <div class="w-8 h-8 text-primary">
+                            <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                        <h1 class="text-xl font-bold text-zinc-900 dark:text-zinc-50">Z.L. Hardscape &amp; Design</h1>
+                    </div>
+                    <nav class="hidden md:flex items-center gap-8">
+                        <a class="text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors"
+                            href="#">Home</a>
+                        <a class="text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors"
+                            href="#">About</a>
+                        <a class="text-sm font-bold text-primary dark:text-primary" href="#">Services</a>
+                        <a class="text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors"
+                            href="#">Projects</a>
+                        <a class="text-sm font-medium text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors"
+                            href="#">Contact</a>
+                    </nav>
+                    <div class="flex items-center gap-4">
+                        <a class="hidden sm:inline-block bg-primary text-white px-5 py-2.5 rounded-lg text-sm font-bold shadow-md hover:bg-primary/90 transition-colors"
+                            href="#">Request a Quote</a>
+                        <button
+                            class="md:hidden p-2 rounded-md text-zinc-600 dark:text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800">
+                            <span class="sr-only">Open menu</span>
+                            <svg aria-hidden="true" class="h-6 w-6" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path d="M4 6h16M4 12h16m-7 6h7" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="flex-grow">
+            <section class="py-16 sm:py-24">
+                <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="max-w-3xl mx-auto text-center">
+                        <h2 class="text-3xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-4xl">
+                            Our Services</h2>
+                        <p class="mt-4 text-lg text-zinc-600 dark:text-zinc-400">Enhance your outdoor living space with
+                            our expert hardscaping services. From design to installation, we deliver quality
+                            craftsmanship and lasting beauty.</p>
+                    </div>
+                    <div class="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                        <div
+                            class="group relative flex flex-col rounded-lg overflow-hidden shadow-lg bg-white dark:bg-zinc-800/50">
+                            <div class="aspect-w-3 aspect-h-2">
+                                <img alt="Paver patio" class="w-full h-full object-cover"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0tTz5z48mKMtQQYlwKWfUhph03b2ZILQ6LKr8N25w4rP7hckzCFyHRlvqrL-30ER_WNBUAL4foWWgjAQexG2LEDUZDz2IdSkuP14LQL9cDhf9w5kiTWMAzszjqIvTrQiLnUhJ9cZOLdquo7f42HdrIh4WOYNDv_3Xd41z92uUecuqmxZJEysjaX1NFekIiYk78umMmgZU3Kf8yFip5eGBZz4O7IrbUiJNSiHTAA8cj9pBsytiJtTPqN5XnseSnDIx629ZksuC2H6k" />
+                            </div>
+                            <div class="p-6 flex-grow flex flex-col">
+                                <h3 class="text-lg font-bold text-zinc-900 dark:text-zinc-100">Paver Installation</h3>
+                                <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400 flex-grow">Create stunning
+                                    patios, walkways, and driveways with our custom paver designs.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="group relative flex flex-col rounded-lg overflow-hidden shadow-lg bg-white dark:bg-zinc-800/50">
+                            <div class="aspect-w-3 aspect-h-2">
+                                <img alt="Artificial turf" class="w-full h-full object-cover"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDonoPa-F7TKPCcwsN6v5JJqshtJPAy2QtabEZWjtMo8AmQ086Brm2a8gtcJz72hYe2JgOm79uyGEB6KNHYIIGi-2pDSElz9rGoUD2G0T3Fi7G9-OhmS62PisghAeBcuCV_We-gVdVyu8Av8W2igA1Y4_XADk9D_JEav8_qUZblLJgo3dYRuznrXVW-oobAnQ4Jk1TSG9cLVoD4Pv9XXxncO5VN2HIlDyrLEDvdtaSFmBLVUpSSWkJHcHUczzAQAsHFg6yBegrUwV4g" />
+                            </div>
+                            <div class="p-6 flex-grow flex flex-col">
+                                <h3 class="text-lg font-bold text-zinc-900 dark:text-zinc-100">Artificial Turf</h3>
+                                <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400 flex-grow">Enjoy a lush, green
+                                    lawn year-round with our high-quality artificial turf solutions.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="group relative flex flex-col rounded-lg overflow-hidden shadow-lg bg-white dark:bg-zinc-800/50">
+                            <div class="aspect-w-3 aspect-h-2">
+                                <img alt="Concrete driveway" class="w-full h-full object-cover"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuALtdYiMHqOxhsHpanY1yLC0wRRlji3VpJ2cYj97KWguD098Dn2rHfjRddR_rGmI-2pPqnqEPNnpb_wiQo22_Nmzzr9u-x1aAQlfDGYg2xD0eutiXU5e4thNG9mCSR7wBaYIz2z41sVIV-ZAjp9ON5Su0QZRGI4VQXwX4LFYCes_VCeZPIoEsgxGMb2s9DwNw9HvigjN9_FUOibBg15UDUhvNoA3LdlThbe3HmBPtxW9IE10_H03fENImAl5rONiGkorl9rKeXr4WgU" />
+                            </div>
+                            <div class="p-6 flex-grow flex flex-col">
+                                <h3 class="text-lg font-bold text-zinc-900 dark:text-zinc-100">Concrete Work</h3>
+                                <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400 flex-grow">From driveways to
+                                    foundations, we provide durable and aesthetically pleasing concrete work.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="group relative flex flex-col rounded-lg overflow-hidden shadow-lg bg-white dark:bg-zinc-800/50">
+                            <div class="aspect-w-3 aspect-h-2">
+                                <img alt="Masonry wall" class="w-full h-full object-cover"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2ulBh-i8nSh8DGC5-K7rKbdZYg6RsIX2azNORlX7UpIthi3eUnjzXXLXWrKz-mQ0HIiXmvoRE7D_QgxetR_cLuBOn0UXdA6SV41ER8ynlb35OXJvRWEh29Kgs_jBty3quIDSKj_OpzxoMyKdknmAWB5S8ZVvQOFxbPHNdIj9RpAoHZjIThFAkeToqReg61iEik96heKyvtp7OdKnMk3g-ljOJDOa2El4Abe037GtE9GRubQlFClG0Ub8qbHyVSvsll1t4k8LCVzHq" />
+                            </div>
+                            <div class="p-6 flex-grow flex flex-col">
+                                <h3 class="text-lg font-bold text-zinc-900 dark:text-zinc-100">Masonry Walls</h3>
+                                <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400 flex-grow">Enhance your property
+                                    with custom-built masonry walls for privacy, security, and beauty.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="group relative flex flex-col rounded-lg overflow-hidden shadow-lg bg-white dark:bg-zinc-800/50">
+                            <div class="aspect-w-3 aspect-h-2">
+                                <img alt="Gravel path" class="w-full h-full object-cover"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDn1PkyUiokOnb6Naermg4FV0bKnUN6bjJ3ob-yhTD_QdImOpPsaJTjtFe0oyZsilBghfT1Iliq8iutO6_0OsYpxCHwXzN7mviVRTiQcGHH7GtSrnNSmbFuSAYWX92KA-W4iJzKEYrN5dEV6opaS79N9wUn2VmeZofBuHuxAR9OBP2kIxW0BefLz5gcGjBPqUyDECXEXZNA82Fw_4CLeJ5c6lAXFyDAtFTiBunFW8kTtpF93XHuiofVBUGYm53rzOrPOOOT7ES0zRwB" />
+                            </div>
+                            <div class="p-6 flex-grow flex flex-col">
+                                <h3 class="text-lg font-bold text-zinc-900 dark:text-zinc-100">Gravel Installation</h3>
+                                <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400 flex-grow">Transform your
+                                    landscape with low-maintenance gravel solutions in various colors and styles.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="group relative flex flex-col rounded-lg overflow-hidden shadow-lg bg-white dark:bg-zinc-800/50">
+                            <div class="aspect-w-3 aspect-h-2">
+                                <img alt="Demolition site" class="w-full h-full object-cover"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVGuxNWEWcQiRvWb6ddw7LjL6zUAw3tHRn1wpu-_gt34B5_vGAIuzCznQ1ZBf4XQ7rqigGnxlUOYQ0micPW19TpP8FrYapDEqdLer8EG53G_Uc-wLybCVXcrdX2ifWR2R7v_wEOxltD56lknG-u7BJkXlAVqyqY8Hq-e6HODLddKDrS-z0IAgbPI2ZHjIwB7kqhsYDf3ktSEflo3fIDftXbwdPeLZPtT164qE2PVPsZ0-fK5cvJbDczzzqUSVSByd0S7rVGbLQa1BU" />
+                            </div>
+                            <div class="p-6 flex-grow flex flex-col">
+                                <h3 class="text-lg font-bold text-zinc-900 dark:text-zinc-100">Demolition Services</h3>
+                                <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400 flex-grow">Prepare your property
+                                    for new projects with our safe and efficient demolition services.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="group relative flex flex-col rounded-lg overflow-hidden shadow-lg bg-white dark:bg-zinc-800/50">
+                            <div class="aspect-w-3 aspect-h-2">
+                                <img alt="Travertine patio" class="w-full h-full object-cover"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7XnHkiK4V-4aW7arFTEq5e9oSwjSrfooF6KAVHwXFhgsEgkPx6HnJxdGOvopWeq0zZXxBeiehhfhUipbLYA8qnyQzHdY6yFzQQ0B0ZbflsWb7Yz7zXy7bUKgZxrCb0YWL3ZOzbx3pvaQ9RVBLZUEBqWMo7NMfwbRO5WRUUxhc8eCjktJtn_AKVmQCbeIYljn2IQ71AJdDZvMm8VHML-Zqt26RF2ylutOT8tzHiLFX-OL6FUT5PTbeegnSchrfBCuogfxE7x_eIinm" />
+                            </div>
+                            <div class="p-6 flex-grow flex flex-col">
+                                <h3 class="text-lg font-bold text-zinc-900 dark:text-zinc-100">Travertine Installation
+                                </h3>
+                                <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400 flex-grow">Add elegance and
+                                    durability to your outdoor spaces with our expert travertine installation.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="group relative flex flex-col rounded-lg overflow-hidden shadow-lg bg-white dark:bg-zinc-800/50">
+                            <div class="aspect-w-3 aspect-h-2">
+                                <img alt="Irrigation system" class="w-full h-full object-cover"
+                                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBL5luMrxDG4b4Ov8HwV6ZVBr8wPn4ROO45agNjemZXzXOvMWP31nDIBEUavUOKeZSNmxzJ3Kcu9ohiKqhjx5zaygwSlHSkRlYuyjfjSQWFgIqPj0yCnhkDqBwJAF6q3U1rB_t5FlrFMCjnNq1RaBJgcC3RIx3uvAv4jnqm2lE9RuX1USrWL_FeOFspIF24FPf9Dw1IpT9q4PXmxw7k4AWbj-gjtMBZi85uTWWZmoKPNASVWKOQdsX8NIpTvDGW6kUH7Q3BF3AXDEyG" />
+                            </div>
+                            <div class="p-6 flex-grow flex flex-col">
+                                <h3 class="text-lg font-bold text-zinc-900 dark:text-zinc-100">Irrigation Systems</h3>
+                                <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400 flex-grow">Keep your landscape
+                                    healthy and vibrant with our efficient and water-saving irrigation systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-background-light/50 dark:bg-background-dark/50 py-16 sm:py-24">
+                <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                    <h2 class="text-3xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-4xl">Ready
+                        to transform your space?</h2>
+                    <p class="mt-4 max-w-2xl mx-auto text-lg text-zinc-600 dark:text-zinc-400">Let's discuss your
+                        project. Contact us today for a free, no-obligation quote.</p>
+                    <div class="mt-8">
+                        <a class="inline-block bg-primary text-white px-8 py-3 rounded-lg text-base font-bold shadow-lg hover:bg-primary/90 transition-all transform hover:scale-105"
+                            href="#">
+                            Request a Quote
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-background-light dark:bg-background-dark border-t border-zinc-200 dark:border-zinc-800">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+                    <div class="flex items-center gap-4">
+                        <div class="w-8 h-8 text-primary">
+                            <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                        <span class="font-bold text-zinc-900 dark:text-zinc-50">Z.L. Hardscape &amp; Design</span>
+                    </div>
+                    <nav class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+                        <a class="text-sm text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors"
+                            href="#">Home</a>
+                        <a class="text-sm text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors"
+                            href="#">About</a>
+                        <a class="text-sm text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors"
+                            href="#">Services</a>
+                        <a class="text-sm text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors"
+                            href="#">Projects</a>
+                        <a class="text-sm text-zinc-600 dark:text-zinc-400 hover:text-primary dark:hover:text-primary transition-colors"
+                            href="#">Contact</a>
+                    </nav>
+                </div>
+                <div
+                    class="mt-8 pt-8 border-t border-zinc-200 dark:border-zinc-800 text-center text-sm text-zinc-500 dark:text-zinc-400">
+                    <p>© 2023 Z.L. Hardscape &amp; Design. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
