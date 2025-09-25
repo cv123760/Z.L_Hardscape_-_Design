@@ -10,6 +10,7 @@
 
 <body>
 
+
     <header>
         <div class="logoContainer">
             <img class="logo" src="images/logo.png" alt="logo">
@@ -17,6 +18,7 @@
         </div>
 
         <nav>
+            <a href="#">Home</a>
             <a href="#services">Services</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
@@ -25,6 +27,15 @@
         <a class="actionButton" href="#contact">Get in Touch</a>
 
     </header>
+
+    <img id="bMenu" src="./images/bmenu.svg" alt="burger Menu">
+    <div class="burgerMenu" id="bMenuDiv">
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+
 
     <main>
         <div class="heroSection">
@@ -48,7 +59,7 @@
             </div>
 
             <div class="servicesContainer">
-                
+
                 <div class="serviceCard">
                     <img src="./images/services/pavers.jpg" alt="pavers">
 
@@ -58,7 +69,7 @@
                     </div>
 
                 </div>
-            
+
                 <div class="serviceCard">
                     <img src="./images/services/turf.jpg" alt="pavers">
 
@@ -68,13 +79,14 @@
                     </div>
 
                 </div>
-            
+
                 <div class="serviceCard">
                     <img src="./images/services/concrete.jpg" alt="pavers">
 
                     <div>
                         <h5>Concrete Work</h5>
-                        <p>From driveways to foundations, we provide durable and aesthetically pleasing concrete work.</p>
+                        <p>From driveways to foundations, we provide durable and aesthetically pleasing concrete work.
+                        </p>
                     </div>
 
                 </div>
@@ -87,17 +99,18 @@
                     </div>
 
                 </div>
-            
+
                 <div class="serviceCard">
                     <img src="./images/services/gravel.jpg" alt="pavers">
 
                     <div>
                         <h5>Gravel Installation</h5>
-                        <p>Transform your landscape with low-maintenance gravel solutions in various colors and styles.</p>
+                        <p>Transform your landscape with low-maintenance gravel solutions in various colors and styles.
+                        </p>
                     </div>
 
                 </div>
-            
+
                 <div class="serviceCard">
                     <img src="./images/services/demo.jpg" alt="pavers">
 
@@ -112,48 +125,168 @@
 
                     <div>
                         <h5>Travertine Installation</h5>
-                        <p>Add elegance and durability to your outdoor spaces with our expert travertine installation.</p>
+                        <p>Add elegance and durability to your outdoor spaces with our expert travertine installation.
+                        </p>
                     </div>
 
                 </div>
-            
+
                 <div class="serviceCard">
                     <img src="./images/services/irrigation.jpg" alt="pavers">
 
                     <div>
                         <h5>Irrigation Systems</h5>
-                        <p>Keep your landscape healthy and vibrant with our efficient and water-saving irrigation systems.</p>
+                        <p>Keep your landscape healthy and vibrant with our efficient and water-saving irrigation
+                            systems.</p>
                     </div>
 
                 </div>
-            
+
                 <div class="serviceCard">
                     <img src="./images/services/pool.jpg" alt="pavers">
 
                     <div>
-                        <h5>Pavers</h5>
-                        <p>Keep your landscape healthy and vibrant with our efficient and water-saving irrigation systems.</p>
+                        <h5>Pool Build and Remodel</h5>
+                        <p>Create your dream backyard oasis with our expert pool services, from custom builds to
+                            professional repairs.</p>
                     </div>
 
                 </div>
             </div>
         </section>
-        
+
         <section id="about">
             <div>
                 <h3>About Us</h3>
-                <h4>Discover the story behind our passion for creating beautiful, enduring hardscapes in the heart of the Sonoran Desert.</h4>
+                <h4>Discover the story behind our passion for creating beautiful, enduring hardscapes in the heart of
+                    the Sonoran Desert.</h4>
 
                 <h3>Our Story</h3>
-                <p>Founded in Tucson, Arizona, Z.L. Hardscape & Design was born from a simple mission: to craft outdoor spaces that are not only stunning and functional but also deeply connected to the unique beauty of our desert environment. With years of dedicated experience and an intimate understanding of local materials and climate, we have proudly become a trusted name for exceptional pavers, artificial turf, and masonry walls. Our unwavering commitment to superior craftsmanship and complete customer satisfaction is the cornerstone of every project we undertake.</p>
+                <p class="story">Founded in Tucson, Arizona, Z.L. Hardscape & Design was born from a simple mission: to
+                    craft outdoor
+                    spaces that are not only stunning and functional but also deeply connected to the unique beauty of
+                    our desert environment. With years of dedicated experience and an intimate understanding of local
+                    materials and climate, we have proudly become a trusted name for exceptional pavers, artificial
+                    turf, and masonry walls. Our unwavering commitment to superior craftsmanship and complete customer
+                    satisfaction is the cornerstone of every project we undertake.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div>
+                <h3>Get in Touch</h3>
+                <h4>Ready to start your project? Fill out the form below and we’ll get back to you shortly.</h4>
+
+                <form id="form" action="/unawnted_contact_request" method="post">
+                    <div>
+                        <label for="name">Full name</label>
+                        <input name="name" id="name" type="text" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input name="email" id="email" type="email" required>
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input name="phone" id="phone" type="number" placeholder="(optional)">
+                    </div>
+
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit" id="button">Send message</button>
+                    </div>
+
+                </form>
+
+                <div class="qualityCheck">
+                    <input type="text" id="quality" name="quality" placeholder="queality check">
+                    <input type="text" id="host" name="host" placeholder="waht are you hosting">
+                    <input type="text">
+                </div>
             </div>
         </section>
 
     </main>
 
     <footer>
+        <div class="logoContainer">
+            <a href="#">
+                <img class="logo" src="images/logo.png" alt="logo">
+            </a>
+            <a href="#">
+                <h2>Z.L. Hardscape & Design</h2>
+            </a>
+        </div>
 
+        <nav>
+            <a href="#">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <p>© 2025 Z.L. Hardscape & Design.</p>
     </footer>
+
+
+    <script>
+        // handle burger menu
+        const bMenuButton = document.getElementById("bMenu")
+        const bMenuDiv = document.getElementById("bMenuDiv")
+
+        const animateMenuDiv = () => {
+
+            bMenuDiv.classList.remove("slideOutDelayed")
+
+            if (bMenuDiv.classList.contains("slideIn")) {
+                bMenuDiv.classList.remove("slideIn")
+                bMenuDiv.classList.add("slideOut")
+            } else {
+                bMenuDiv.classList.remove("slideOut")
+                bMenuDiv.classList.add("slideIn")
+            }
+        }
+
+        bMenuButton.addEventListener("click", () => {
+            animateMenuDiv()
+        })
+
+        bMenuDiv.addEventListener("click", () => {
+            setTimeout(() => {
+                bMenuDiv.classList.remove("slideOut")
+                bMenuDiv.classList.remove("slideIn")
+                bMenuDiv.classList.add("slideOutDelayed")
+            }, 500)
+        })
+
+        // handle form submition
+        const host = document.getElementById("host")
+        const quealityCheck = document.getElementById("quality")
+        const form = document.getElementById("form")
+        let didScroll = false
+
+        // check if user scrolled
+        window.addEventListener("scroll", () => {
+            if (!didScroll)
+                console.log("scrolled")
+            didScroll = true
+            host.value = "zlhardscape.alphacodingllc.com"
+            form.action = "zlhardscape.alphacodingllc/contact_form"
+        })
+
+        // check if user typed in quality check input
+        quealityCheck.addEventListener("input", () => {
+            host.value = "fake"
+            form.action = "/unwanted"
+        })
+
+    </script>
 </body>
 
 </html>
